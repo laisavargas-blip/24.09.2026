@@ -1,4 +1,4 @@
-import pool from "../config/db.js";
+import {pool} from "../config/db.js";
 
 class ProdutoService {
 
@@ -42,4 +42,4 @@ class ProdutoService {
 
 }
 
-export default ProdutoService;
+export const produtoService = new ProdutoService();
